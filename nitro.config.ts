@@ -1,2 +1,11 @@
 //https://nitro.unjs.io/config
-export default defineNitroConfig({});
+export default defineNitroConfig({
+  experimental: {
+    openAPI: true,
+  },
+  _config: {
+    experimental: {
+      openAPI: true,
+    },
+  },
+});
